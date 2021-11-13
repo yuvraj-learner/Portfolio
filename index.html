@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 777px) {
+            #navbar{
+                width: 100%;
+                height: 200px;
+                background-color: blanchedalmond;
+            }
+            #navbar ul li{
+                display: inline;
+            }
+            #navbar ul li a{
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 20px;
+                padding: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <nav id="navbar">       
+        <p>Yuvraj Kushwaha</p>     
+        <ul class="sidenav">
+            <li class="nav-link"><a href="#welcome-section">Welcome</a></li>
+            <li class="nav-link"><a href="#projects">Projects</a></li>
+            <li class="nav-link"><a href="#profile-link">Connect</a></li>
+        </ul>
+    </nav>
+    <section id="welcome-section">
+        <h1>Hey I am Yuvraj</h1>
+        <p> a web developer</p>
+    </section>
+    
+    <section id="projects">
+        <div class="flex-container">
+            <div class="project-tile">
+                <a href="https://yuvraj-learner.github.io/Bose/" target="_blank"><img src="media/product.png" alt="Bose Product page"></a> 
+                <p>Product Landing Page</p>
+            </div>
+            <div class="project-tile">
+                <a href="https://yuvraj-learner.github.io/Tribute-Page/" target="_blank"><img src="media/chester.png" alt="Tribute Page"></a>
+                <p>Tribute Page</p>
+            </div>
+            <div class="project-tile">
+                <a href="https://yuvraj-learner.github.io/Survey-Form/" target="_blank"><img src="media/Screenshot (26).png" alt="Survey-form"></a>
+                <p>Survey Form</p>
+            </div>
+            <div class="project-tile">
+                <a href="https://yuvraj-learner.github.io/Counting-App/" target="_blank"><img src="media/counting.png" alt="Counting App"></a>
+                <p>Counting App</p>
+            </div>
+            <div class="project-tile">
+                <a href="https://yuvraj-learner.github.io/Technical-Documentation-Page/" target="_blank"><img src="media/python.png" alt="python-documentation"></a>
+                <p>Python Documentation</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.freecodecamp.org/yuvikush" target="_blank" id="profile-link">freecodecamp</a></li>
+            <li><a href="https://github.com/yuvraj-learner" target="_blank" id="profile-link">Github</a></li>
+        </ul>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>
